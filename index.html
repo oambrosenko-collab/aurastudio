@@ -1,0 +1,1324 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Aura Studio — Beauty Salon in Baku | Hair, Nails, Facials &amp; Massage</title>
+<meta name="description" content="Aura Studio is a premium beauty salon in Baku offering hair styling, manicure &amp; pedicure, facials, massage, brows and makeup — with same-day appointments, always.">
+<!-- TODO: confirm the live domain and update this canonical + all og:url values below -->
+<link rel="canonical" href="https://aurastudio.az/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aura Studio">
+<meta property="og:title" content="Aura Studio — Beauty Salon in Baku">
+<meta property="og:description" content="A premium beauty studio in Baku — hair, nails, facials, massage, brows &amp; makeup. There is always a chair open for you.">
+<meta property="og:url" content="https://aurastudio.az/">
+<!-- TODO: add og:image — 1200x630px JPG/PNG (e.g. hero photo), upload it and replace the URL below -->
+<meta property="og:image" content="https://aurastudio.az/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aura Studio — Beauty Salon in Baku">
+<meta name="twitter:description" content="A premium beauty studio in Baku — hair, nails, facials, massage, brows &amp; makeup. There is always a chair open for you.">
+<meta name="twitter:image" content="https://aurastudio.az/og-image.jpg">
+
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+
+<!-- GA4: вставити тег тут -->
+<!-- Meta Pixel: вставити тег тут -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://res.cloudinary.com">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet"></noscript>
+<link rel="preload" as="image" fetchpriority="high" media="(max-width: 900px)"
+  imagesrcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_750,h_1250/v1790084591/ekr.jpg 750w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_1080,h_1800/v1790084591/ekr.jpg 1080w"
+  imagesizes="100vw">
+<link rel="preload" as="image" fetchpriority="high" media="(min-width: 901px)"
+  imagesrcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_960,h_600/v1790084591/ekr.jpg 960w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_1600,h_1000/v1790084591/ekr.jpg 1600w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_2400,h_1500/v1790084591/ekr.jpg 2400w"
+  imagesizes="100vw">
+<style>
+  :root{
+    --cream:#F5EFE3;
+    --cream-line:rgba(33,68,46,0.16);
+    --paper-a:#E6DCC5;
+    --paper-c:#CFC6AC;
+    --green:#21442e;
+    --green-deep:#152d1e;
+    --green-tint:#3a6249;
+    --ink:#1c1c16;
+    --ink-soft:#6d6a5b;
+    --on-green:#F5EFE3;
+    --on-green-muted:#b9c7ba;
+    --serif:'Playfair Display', Georgia, 'Times New Roman', serif;
+    --sans:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --fs-hero:clamp(2.6rem, 3.6vw + 1.6rem, 5.4rem);
+    --fs-h2:clamp(2.3rem, 3.3vw + 1rem, 4.3rem);
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--ink);
+    font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;}
+  h1,h2{font-family:var(--serif);font-weight:600;margin:0;text-wrap:balance;}
+  h2{
+    font-size:var(--fs-h2);line-height:1.18;letter-spacing:0.001em;
+    background-image:linear-gradient(90deg, var(--green-deep), var(--green-tint), var(--green-deep));
+    background-size:200% auto;
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    color:transparent;
+    animation:script-shimmer 2s linear infinite alternate;
+    will-change:background-position;
+  }
+  @keyframes script-shimmer{
+    0%{background-position:0% 50%;}
+    100%{background-position:100% 50%;}
+  }
+  .on-green h2, #reviews h2{
+    background-image:none;
+    -webkit-text-fill-color:var(--on-green);
+    color:var(--on-green);
+    animation:none;
+  }
+  @media(prefers-reduced-motion:reduce){
+    h2{animation:none;}
+  }
+  p{margin:0;}
+  .script{font-weight:500;}
+  .wrap{max-width:1360px;margin:0 auto;padding:0 48px;}
+  @media(max-width:900px){.wrap{padding:0 22px;}}
+  .contact-wrap{padding-top:104px;padding-bottom:104px;}
+  @media(max-width:900px){.contact-wrap{padding-top:68px;padding-bottom:68px;}}
+
+  .btn{
+    font-family:var(--sans);font-size:14.5px;letter-spacing:0.02em;
+    padding:17px 34px;border:1px solid var(--ink);background:transparent;color:var(--ink);
+    text-decoration:none;display:inline-flex;align-items:center;justify-content:center;
+    transition:background .2s ease,color .2s ease;cursor:pointer;white-space:nowrap;min-width:200px;
+  }
+  .btn:hover{background:var(--green);border-color:var(--green);color:var(--on-green);}
+  .btn-solid{background:var(--green);border-color:var(--green);color:var(--on-green);}
+  .btn-solid:hover{background:var(--green-deep);border-color:var(--green-deep);}
+  .on-green .btn{border-color:rgba(245,239,227,0.85);color:var(--on-green);}
+  .on-green .btn:hover{background:var(--on-green);color:var(--green);}
+
+  .ph{
+    position:relative;
+    background:repeating-linear-gradient(135deg, rgba(33,68,46,0.05) 0 2px, transparent 2px 14px),
+      linear-gradient(155deg, var(--paper-a), var(--paper-c));
+    display:flex;align-items:center;justify-content:center;overflow:hidden;
+  }
+  .ph svg{display:none;}
+  .ph img{width:100%;height:100%;object-fit:cover;display:block;}
+  .ph picture{width:100%;height:100%;display:block;}
+  .ph .ph-label,
+  .ph[data-label]::after{
+    font-size:11px;letter-spacing:0.08em;text-transform:uppercase;
+    color:var(--ink-soft);font-weight:600;text-align:center;padding:0 16px;
+  }
+  .ph[data-label]::after{content:attr(data-label);}
+  .ph.mono{background:repeating-linear-gradient(135deg, rgba(0,0,0,0.05) 0 2px, transparent 2px 14px),
+      linear-gradient(160deg,#c9c9c2,#8c8c82);}
+
+  /* ===== NAV ===== */
+  header{position:sticky;top:0;z-index:50;background:var(--cream);border-bottom:1px solid var(--cream-line);}
+  nav.wrap{display:flex;align-items:center;justify-content:space-between;height:86px;}
+  .brand{display:flex;align-items:center;gap:10px;}
+  .brand-mark{width:36px;height:auto;flex:0 0 auto;display:block;}
+  .logo{font-family:var(--serif);font-weight:700;font-size:20px;letter-spacing:0.06em;}
+  .nav-links{display:flex;gap:36px;list-style:none;margin:0;padding:0;font-size:14px;letter-spacing:0.02em;}
+  .nav-links a{text-decoration:none;position:relative;padding:4px 0;}
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:var(--green);transition:width .2s ease;}
+  .nav-links a:hover::after{width:100%;}
+  .nav-phone{border:1px solid var(--ink);padding:11px 20px;font-size:13.5px;text-decoration:none;white-space:nowrap;}
+  .burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:0;padding:4px;}
+  .burger span{width:24px;height:1px;background:var(--ink);transition:transform .2s ease,opacity .2s ease;}
+  @media(max-width:900px){
+    .nav-links{display:none;}
+    .nav-phone{display:none;}
+    .burger{display:flex;}
+    /* mobile menu: burger toggles this open state via JS below */
+    header.nav-open .nav-links{
+      display:flex;flex-direction:column;gap:0;
+      position:absolute;left:0;right:0;top:100%;
+      background:var(--cream);border-bottom:1px solid var(--cream-line);
+      padding:8px 22px 18px;
+    }
+    header.nav-open .nav-links a{padding:12px 0;border-top:1px solid var(--cream-line);}
+    header.nav-open .nav-links li:first-child a{border-top:0;}
+    header.nav-open .burger span:nth-child(1){transform:translateY(6px) rotate(45deg);}
+    header.nav-open .burger span:nth-child(2){opacity:0;}
+    header.nav-open .burger span:nth-child(3){transform:translateY(-6px) rotate(-45deg);}
+  }
+
+  /* ===== HERO — full bleed photo, centered overlay text ===== */
+  .hero{position:relative;min-height:calc(100vh - 86px);display:flex;align-items:center;justify-content:center;}
+  .hero .ph{position:absolute;inset:0;}
+  .hero .ph::before{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(to top, rgba(15,25,18,0.62) 0%, rgba(15,25,18,0.28) 42%, rgba(15,25,18,0.08) 65%);
+  }
+  .hero .ph-label{position:absolute;left:24px;bottom:24px;color:rgba(255,255,255,0.75);}
+  .hero-copy{
+    position:relative;z-index:2;text-align:center;max-width:900px;margin:0 auto;
+    padding:0 24px;display:flex;flex-direction:column;align-items:center;gap:30px;
+  }
+  .hero-copy h1{
+    font-size:var(--fs-hero);color:#fff;line-height:1.08;text-wrap:balance;
+  }
+  .hero-copy h1 .script{
+    background-image:none;
+    -webkit-text-fill-color:inherit;
+    color:inherit;
+    animation:none;
+  }
+  .hero-cta{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;}
+  @media(min-width:901px){.hero-cta .btn{min-width:257px;}}
+  .hero-cta .btn{border-color:rgba(255,255,255,0.9);color:#fff;background:rgba(255,255,255,0.07);backdrop-filter:blur(2px);}
+  .hero-cta .btn:hover{background:var(--green);border-color:var(--green);color:var(--on-green);}
+  .hero-social{position:absolute;left:32px;bottom:32px;z-index:2;display:flex;gap:10px;}
+  .hero-social a{width:40px;height:40px;border-radius:50%;background:rgba(245,239,227,0.85);display:flex;align-items:center;justify-content:center;text-decoration:none;}
+  .hero-social svg{width:17px;height:17px;stroke:var(--green);fill:none;}
+
+  /* ===== generic section spacing ===== */
+  section{padding:104px 0;}
+  @media(max-width:900px){section{padding:68px 0;}}
+  .section-head{margin-bottom:52px;}
+  .on-green{background:var(--green);color:var(--on-green);}
+
+  /* ===== STORY ===== */
+  .story-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;align-items:center;margin-top:52px;}
+  .story-grid .ph{grid-column:1/3;aspect-ratio:4/5;transition:transform .3s ease,box-shadow .3s ease;}
+  .story-grid .ph img{filter:brightness(0.82) saturate(0.92);transition:transform .3s ease;}
+  .story-grid .ph:hover{transform:scale(1.04);box-shadow:0 24px 50px rgba(21,45,30,0.3);}
+  .story-grid .ph:hover img{transform:scale(1.08);}
+  .story-copy{grid-column:3/5;}
+  @media(max-width:900px){.story-grid{grid-template-columns:1fr;gap:40px;}.story-grid .ph{grid-column:1/-1;}.story-copy{grid-column:1/-1;}}
+  .story-copy p.lead{font-size:17px;line-height:1.72;color:var(--ink-soft);max-width:54ch;margin-bottom:34px;}
+  .values{display:grid;grid-template-columns:1fr 1fr;gap:32px 40px;}
+  @media(max-width:480px){.values{grid-template-columns:1fr;}}
+  .value-item{border-top:1px solid var(--cream-line);padding-top:14px;}
+  .value-item h3{font-family:var(--sans);font-size:15px;font-weight:700;margin-bottom:6px;}
+  .value-item p{font-size:14px;color:var(--ink-soft);line-height:1.55;}
+  .story-copy{display:flex;flex-direction:column;}
+  .story-copy__body{flex:1;display:flex;flex-direction:column;justify-content:center;}
+  .story-cta{margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:0 40px;}
+  .story-cta .btn{grid-column:2;width:100%;}
+  @media(min-width:901px){.story-grid .story-copy{align-self:stretch;}}
+  @media(max-width:480px){.story-cta{grid-template-columns:1fr;}.story-cta .btn{grid-column:1;width:100%;}}
+
+  .stat-band{padding:104px 0;}
+  @media(max-width:900px){.stat-band{padding:68px 0;}}
+  .stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;align-items:center;}
+  @media(max-width:900px){.stat-row{grid-template-columns:1fr 1fr;row-gap:40px;}.stat-row .principle{grid-column:1/-1;}}
+  .stat-item{width:fit-content;}
+  .stat-num{font-family:var(--serif);font-size:clamp(2.1rem,3vw,2.9rem);font-weight:600;line-height:1;text-align:center;}
+  .stat-label{font-size:13px;color:var(--on-green-muted);margin-top:10px;line-height:1.4;}
+  .principle h4{font-family:var(--serif);font-style:italic;font-weight:500;font-size:17px;margin-bottom:10px;text-transform:none;}
+  .principle p{font-size:13.5px;line-height:1.65;color:var(--on-green-muted);}
+
+  /* ===== PROCESS ===== */
+  .process-row{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;align-items:center;padding:28px 0;border-top:1px solid var(--cream-line);}
+  .process-row:last-child{border-bottom:1px solid var(--cream-line);}
+  .p-desc{grid-column:3/5;}
+  @media(max-width:700px){
+    .process-row{grid-template-columns:44px 1fr;gap:16px;row-gap:8px;}
+    .p-index{grid-column:1;grid-row:1;}
+    .p-title{grid-column:2;grid-row:1;}
+    .p-desc{grid-column:2;grid-row:2;}
+  }
+  .p-index{font-family:var(--serif);font-size:34px;color:var(--green-tint);}
+  .p-title{font-family:var(--sans);font-size:15px;font-weight:700;}
+  .p-desc{font-size:14.5px;color:var(--ink-soft);line-height:1.6;}
+
+  /* ===== SERVICES — asymmetric reference layout ===== */
+  .services{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;align-items:start;}
+  .services--b{margin-top:40px;}
+  .svc{margin:0;}
+  .svc figcaption{padding:7px 2px 0;font-size:14.5px;font-weight:600;}
+  .svc .ph{aspect-ratio:4/3;}
+  .svc--tall .ph{aspect-ratio:3/4;}
+  .svc--half{align-self:end;}
+  .svc--half .ph,.svc--short .ph{aspect-ratio:3/2;}
+  .svc--wide{grid-column:span 2;}
+  .svc--wide .ph{aspect-ratio:16/9;}
+  .svc__aside{display:flex;flex-direction:column;justify-content:flex-end;gap:18px;padding:6px 2px;}
+  .svc__aside p{font-size:14.5px;line-height:1.65;color:var(--ink-soft);max-width:30ch;}
+  .btn--block{width:100%;min-width:0;}
+  @media(min-width:901px){
+    /* stretch the aside to the row's full height, then pad off exactly one
+       caption's worth of space so the button lands on the image's own
+       bottom edge, not the bottom of the tallest image+caption block */
+    .svc__aside{align-self:stretch;padding-bottom:25px;}
+  }
+  @media(max-width:900px){
+    .services{grid-template-columns:1fr 1fr;}
+    .svc--wide{grid-column:span 2;}
+    .svc__aside{grid-column:span 2;}
+  }
+
+
+  /* ===== SERVICE PRICE MODAL ===== */
+  .svc__open{
+    display:block;width:100%;margin:0;padding:0;border:0;background:none;
+    font:inherit;color:inherit;text-align:left;cursor:pointer;position:relative;
+  }
+  .svc__open .ph{transition:filter .25s ease,transform .3s ease,box-shadow .3s ease;position:relative;}
+  .svc__open .ph img{transition:transform .3s ease;}
+  .svc__open:hover .ph,.svc__open:focus-visible .ph{
+    filter:brightness(0.93);
+    transform:scale(1.04);
+    box-shadow:0 24px 50px rgba(21,45,30,0.3);
+    z-index:2;
+  }
+  .svc__open:hover .ph img,.svc__open:focus-visible .ph img{transform:scale(1.08);}
+  .svc__open:focus-visible{outline:2px solid var(--green);outline-offset:3px;}
+  .svc__hint{
+    position:absolute;left:12px;bottom:12px;z-index:2;
+    display:inline-flex;align-items:center;gap:9px;padding:9px 16px;
+    background:var(--cream);color:var(--ink);
+    font-size:11px;letter-spacing:0.1em;text-transform:uppercase;font-weight:600;
+    opacity:0;transform:translateY(6px);transition:opacity .22s ease,transform .22s ease;
+  }
+  .svc__open:hover .svc__hint,.svc__open:focus-visible .svc__hint{opacity:1;transform:none;}
+  @media(hover:none){.svc__hint{opacity:1;transform:none;}}
+
+  .pricing-overlay{
+    position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;
+    padding:24px;background:rgba(15,25,18,0.55);
+    opacity:0;pointer-events:none;transition:opacity .25s ease;
+  }
+  .pricing-overlay[hidden]{display:none;}
+  .pricing-overlay.is-open{opacity:1;pointer-events:auto;}
+  .pricing-modal{
+    position:relative;width:min(620px,100%);max-height:min(84vh,800px);
+    display:flex;flex-direction:column;background:var(--cream);
+    border:1px solid var(--cream-line);box-shadow:0 30px 70px rgba(15,25,18,0.32);
+    transform:translateY(16px) scale(0.985);transition:transform .25s ease;
+  }
+  .pricing-overlay.is-open .pricing-modal{transform:none;}
+  .pricing-modal__head{padding:34px 38px 22px;border-bottom:1px solid var(--cream-line);}
+  .pricing-modal__eyebrow{font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;}
+  .pricing-modal__title{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.6vw + 1.1rem,2.3rem);line-height:1.08;margin:10px 0 0;}
+  .pricing-modal__note{font-size:13.5px;line-height:1.6;color:var(--ink-soft);margin-top:10px;max-width:48ch;}
+  .pricing-modal__close{
+    position:absolute;top:18px;right:18px;width:38px;height:38px;
+    display:flex;align-items:center;justify-content:center;
+    border:1px solid var(--cream-line);background:var(--cream);color:var(--ink);
+    font-size:17px;line-height:1;cursor:pointer;transition:background .2s ease,color .2s ease,border-color .2s ease;
+  }
+  .pricing-modal__close:hover{background:var(--green);border-color:var(--green);color:var(--on-green);}
+  .pricing-list{margin:0;padding:6px 38px 6px;overflow-y:auto;}
+  .price-row{
+    display:grid;grid-template-columns:1fr auto auto;align-items:baseline;gap:6px 20px;
+    padding:15px 0;border-bottom:1px solid var(--cream-line);
+  }
+  .price-row:last-child{border-bottom:0;}
+  .price-row__name{font-size:14.5px;font-weight:600;line-height:1.4;}
+  .price-row__time{font-size:12.5px;color:var(--ink-soft);letter-spacing:0.03em;white-space:nowrap;}
+  .price-row__cost{font-family:var(--serif);font-size:19px;color:var(--green);white-space:nowrap;min-width:82px;text-align:right;}
+  .price-row__cur{font-family:var(--sans);font-size:0.72em;font-weight:600;margin-left:4px;letter-spacing:0.02em;}
+  .pricing-modal__foot{
+    padding:20px 38px 28px;border-top:1px solid var(--cream-line);
+    display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;
+  }
+  .pricing-modal__foot span{font-size:13px;line-height:1.55;color:var(--ink-soft);max-width:26ch;}
+  .pricing-modal__foot .btn{min-width:200px;padding:15px 28px;}
+  body.is-locked{overflow:hidden;}
+  @media(max-width:620px){
+    .pricing-overlay{padding:0;align-items:flex-end;}
+    .pricing-modal{width:100%;max-height:92vh;}
+    .pricing-modal__head{padding:28px 22px 18px;}
+    .pricing-list{padding:4px 22px;}
+    .pricing-modal__foot{padding:18px 22px 24px;}
+    .pricing-modal__foot span{max-width:none;}
+    .pricing-modal__foot .btn{width:100%;}
+    .price-row{grid-template-columns:1fr auto;}
+    .price-row__time{grid-column:1;grid-row:2;}
+    .price-row__cost{grid-column:2;grid-row:1/3;align-self:center;}
+  }
+  /* ===== GALLERY — draggable parallax carousel ===== */
+  .gallery-carousel{
+    position:relative;margin-top:52px;
+    overflow-x:auto;overflow-y:hidden;
+    cursor:grab;user-select:none;
+    scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  .gallery-carousel::-webkit-scrollbar{display:none;}
+  .gallery-carousel.is-dragging{cursor:grabbing;scroll-snap-type:none;}
+  .gallery-track{display:flex;gap:16px;width:max-content;}
+  .gallery-card{
+    flex:0 0 auto;width:min(62vw,380px);aspect-ratio:4/5;
+    position:relative;overflow:hidden;background:var(--paper-a);margin:0;
+  }
+  .gallery-card img{
+    position:absolute;top:50%;left:50%;width:132%;height:132%;
+    object-fit:cover;transform:translate(-50%,-50%);pointer-events:none;
+    will-change:transform;
+  }
+  .gallery-cta{display:flex;justify-content:center;margin-top:40px;}
+  .gallery-cta .btn{width:min(70vw,300px);}
+  @media(max-width:900px){
+    .gallery-card{width:min(74vw,320px);}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .gallery-card img{transform:translate(-50%,-50%) !important;}
+  }
+
+  /* ===== TEAM — 4-column editorial grid, green-tinted placeholders ===== */
+  .team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;align-items:start;}
+  .team-grid + .team-grid{margin-top:10px;}
+  .team-row3-start{grid-column-start:2;}
+  .team-tile{margin:0;}
+  .team-tile .ph{
+    position:relative;aspect-ratio:3/4;
+    background:repeating-linear-gradient(45deg, rgba(33,68,46,0.08) 0 10px, rgba(33,68,46,0.02) 10px 20px), var(--paper-a);
+    transition:transform .3s ease,box-shadow .3s ease;
+  }
+  .team-tile .ph img{transition:transform .3s ease;}
+  .team-tile:hover .ph{transform:scale(1.04);box-shadow:0 24px 50px rgba(21,45,30,0.3);z-index:2;}
+  .team-tile:hover .ph img{transform:scale(1.08);}
+  /* random-opacity green wash — sits above the placeholder/photo, stays see-through */
+  .team-tile .ph::before{content:"";position:absolute;inset:0;background:var(--green);opacity:var(--tint,0.3);z-index:1;}
+  .team-caption{
+    position:absolute;left:0;right:0;bottom:0;z-index:3;padding:14px 14px 12px;
+    background:linear-gradient(to top, rgba(15,25,18,0.82), rgba(15,25,18,0) 75%);
+    transition:opacity .25s ease;
+  }
+  .team-caption h3{font-family:var(--sans);font-weight:700;font-size:14.5px;color:var(--on-green);}
+  .team-caption .role{font-size:12px;color:rgba(245,239,227,0.85);margin-top:2px;}
+  .team-bio{
+    position:absolute;inset:0;z-index:4;padding:18px;display:flex;align-items:center;
+    background:rgba(15,25,18,0.88);opacity:0;transition:opacity .25s ease;
+  }
+  .team-bio p{font-size:12.5px;line-height:1.5;color:var(--on-green);}
+  .team-tile:hover .team-bio{opacity:1;}
+  .team-tile:hover .team-caption{opacity:0;}
+  .team-text{padding:4px 2px;}
+  .team-text p{font-size:15px;font-weight:700;line-height:1.65;color:var(--ink);max-width:30ch;}
+  .team-text p .text-regular{font-weight:400;}
+  .team-cta-tile{aspect-ratio:3/4;display:flex;flex-direction:column;justify-content:flex-end;padding:4px 2px 0;}
+  .team-cta-tile p{font-size:14px;line-height:1.6;color:var(--ink-soft);margin-bottom:16px;}
+  .team-cta-tile .btn{width:100%;}
+  @media(max-width:900px){
+    .team-grid{grid-template-columns:1fr 1fr;}
+    .team-row3-start{grid-column-start:1;}
+    .team-cta-tile{aspect-ratio:auto;padding:28px 2px 0;}
+  }
+  @media(max-width:560px){
+    .team-grid{grid-template-columns:1fr;}
+    .team-row3-start{grid-column-start:1;}
+  }
+
+  /* ===== REVIEWS — green section, white review tiles, auto-scrolling row ===== */
+  #reviews{background:var(--green);color:var(--on-green);overflow:hidden;}
+  #reviews .section-head{text-align:center;display:flex;flex-direction:column;align-items:center;}
+  .reviews-rating{display:flex;align-items:baseline;justify-content:center;gap:14px;margin-top:20px;}
+  .rating-num{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,3vw,2.6rem);color:var(--on-green);line-height:1;}
+  .rating-caption{font-size:13px;line-height:1;color:var(--on-green-muted);}
+  .rating-stars{color:#E5B65C;font-size:16px;line-height:1;letter-spacing:3px;}
+
+  .reviews-scroll{position:relative;width:100%;}
+  .reviews-track{display:flex;gap:10px;width:max-content;animation:reviews-scroll 36s linear infinite;}
+  @keyframes reviews-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+  @media(prefers-reduced-motion:reduce){.reviews-track{animation:none;}}
+  .review-card{
+    position:relative;background:var(--cream);color:var(--ink);
+    width:min(70vw,300px);aspect-ratio:6/5;flex:0 0 auto;
+    padding:22px 20px;
+    display:flex;flex-direction:column;justify-content:space-between;gap:8px;
+  }
+  .review-foot{display:flex;align-items:center;gap:10px;}
+  .review-photo{width:36px;height:36px;flex:0 0 auto;border-radius:50%;}
+  .review-photo img{filter:brightness(0.82) saturate(0.85);}
+  .review-quote-mark{
+    font-family:var(--serif);font-weight:700;
+    font-size:40px;line-height:0.6;color:var(--green);opacity:0.5;
+  }
+  .review-stars{color:#E5B65C;font-size:12px;letter-spacing:2px;}
+  .review-card p.txt{font-size:13px;line-height:1.5;color:var(--ink-soft);position:relative;z-index:1;}
+  .review-card .name{font-family:var(--serif);font-weight:600;font-size:15px;color:var(--ink);}
+  .reviews-more{display:flex;justify-content:center;margin-top:44px;}
+  .reviews-more .btn{width:min(70vw,300px);}
+
+  /* ===== CONTACT / BOOK — centered single-column form ===== */
+  #contact h2{text-align:center;}
+  .contact-form{max-width:440px;margin:44px auto 0;display:flex;flex-direction:column;gap:22px;}
+  .field{display:flex;flex-direction:column;gap:10px;}
+  .field label{font-size:13px;color:var(--on-green-muted);}
+  .field input,.field select,.field textarea{
+    width:100%;background:transparent;border:0;border-bottom:1px solid rgba(245,239,227,0.4);
+    color:var(--on-green);font-family:var(--sans);font-size:15px;padding:8px 2px;outline:none;resize:none;
+  }
+  .field select{
+    appearance:none;-webkit-appearance:none;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.5 6l4.5 4.5L12.5 6' fill='none' stroke='%23F5EFE3' stroke-width='1.4'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;background-position:right 2px center;background-size:14px;
+  }
+  .field select option{color:#1c1c16;}
+  .field input::placeholder,.field textarea::placeholder{color:rgba(245,239,227,0.35);}
+  .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--on-green);}
+  .contact-form-foot{max-width:440px;margin:22px auto 0;}
+  .contact-form-foot .btn{width:100%;}
+  .contact-form-note{max-width:440px;margin:18px auto 0;font-size:13.5px;line-height:1.5;color:var(--on-green);text-align:center;}
+
+  /* ===== FOOTER ===== */
+  footer{padding:104px 0 40px;}
+  @media(max-width:900px){footer{padding:68px 0 40px;}}
+  .social-list{display:grid;grid-template-columns:repeat(2,auto);gap:20px 56px;margin-top:36px;}
+  .social-list a{display:flex;align-items:center;gap:14px;text-decoration:none;font-size:14.5px;}
+  .social-list .ic{width:40px;height:40px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;}
+  .social-list .ic svg{width:17px;height:17px;stroke:var(--on-green);fill:none;}
+  hr.line{border:0;border-top:1px solid var(--cream-line);margin:56px 0 48px;}
+  .foot-grid{display:grid;grid-template-columns:1.1fr 1fr 1fr 1.2fr;gap:32px;}
+  @media(max-width:900px){.foot-grid{grid-template-columns:1fr 1fr;row-gap:36px;}}
+  .foot-grid h4{font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:10px;font-weight:700;}
+  .foot-grid .val{font-size:14.5px;line-height:1.6;}
+  .foot-map{aspect-ratio:4/3;position:relative;overflow:hidden;filter:grayscale(0.3) contrast(1.05);}
+  .foot-map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;}
+  .foot-bottom{margin-top:56px;padding-top:24px;border-top:1px solid var(--cream-line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;font-size:12.5px;color:var(--ink-soft);}
+  .foot-bottom .legal-links{display:flex;gap:22px;}
+  .foot-bottom a{text-decoration:none;}
+  .foot-bottom a:hover{color:var(--ink);}
+
+  @media (prefers-reduced-motion: no-preference){
+    .reveal{animation:rise .8s ease both;}
+    @keyframes rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
+  }
+
+  /* ===== FADE-UP — IntersectionObserver-driven reveal (hero heading) ===== */
+  .fade-up-js{opacity:0;transform:translateY(20px);}
+  .fade-up-js.is-visible{animation:fade-up .7s ease forwards;}
+  @keyframes fade-up{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+  @media(prefers-reduced-motion:reduce){
+    .fade-up-js{opacity:1;transform:none;}
+    .fade-up-js.is-visible{animation:none;}
+  }
+</style>
+</head>
+
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 8h3l2-2.5h6L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+    <circle cx="12" cy="13" r="3.4"/>
+  </symbol>
+  <symbol id="i-inst" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+    <rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="0.8" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="i-tg" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+    <path d="M21 4L3 11.5l6 2M21 4l-3.5 16L9 13.5M21 4L9 13.5"/>
+  </symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+    <path d="M14 21v-8h3l0.5-3.5H14V7.3c0-1 .3-1.8 1.9-1.8H18V2.3C17.6 2.2 16.5 2 15.2 2 12.5 2 10.7 3.6 10.7 6.6v2.9H8V13h2.7v8"/>
+  </symbol>
+  <symbol id="i-tik" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+    <path d="M13.5 3v11.6a3.4 3.4 0 1 1-2.6-3.3M13.5 3c.4 2.4 2 4 4.6 4.2V10c-1.7 0-3.2-.5-4.6-1.5"/>
+  </symbol>
+</svg>
+
+<header>
+  <nav class="wrap">
+    <div class="brand">
+      <img class="brand-mark" src="favicons/brand-mark.png" width="36" height="36" loading="eager" decoding="async" alt="Aura Studio monogram">
+      <div class="logo">AURA STUDIO</div>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#story">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#team">Specialists</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+    </ul>
+    <a class="nav-phone" href="#contact">+994 00 000 00 00</a>
+    <button class="burger" id="navBurger" aria-label="Menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<script>
+(function initMobileNav(){
+  const header = document.querySelector('header');
+  const burger = document.getElementById('navBurger');
+  const links = document.getElementById('navLinks');
+  if (!header || !burger || !links) return;
+
+  function setOpen(open){
+    header.classList.toggle('nav-open', open);
+    burger.setAttribute('aria-expanded', String(open));
+  }
+
+  burger.addEventListener('click', () => setOpen(!header.classList.contains('nav-open')));
+  links.addEventListener('click', e => { if (e.target.closest('a')) setOpen(false); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') setOpen(false); });
+})();
+</script>
+
+<section class="hero">
+  <div class="ph">
+    <picture>
+      <source media="(max-width: 900px)" sizes="100vw"
+        srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_750,h_1250/v1790084591/ekr.jpg 750w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_1080,h_1800/v1790084591/ekr.jpg 1080w">
+      <img
+        src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_1600,h_1000/v1790084591/ekr.jpg"
+        srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_960,h_600/v1790084591/ekr.jpg 960w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_1600,h_1000/v1790084591/ekr.jpg 1600w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_2400,h_1500/v1790084591/ekr.jpg 2400w"
+        sizes="100vw" width="1600" height="1000" fetchpriority="high" decoding="async" alt="Aura Studio">
+    </picture>
+  </div>
+  <div class="hero-copy">
+    <h1 class="fade-up-js"><span class="script">Aura</span> is ready.<br>Even if there's no room, we'll make one</h1>
+    <div class="hero-cta reveal">
+      <a href="#contact" class="btn">Book Now</a>
+      <a href="#services" class="btn">View Services</a>
+    </div>
+  </div>
+  <div class="hero-social">
+    <a href="#" aria-label="Telegram"><svg><use href="#i-tg"/></svg></a>
+    <a href="#" aria-label="Instagram"><svg><use href="#i-inst"/></svg></a>
+  </div>
+</section>
+
+<section id="story">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Built around your <span class="script">time</span></h2>
+    </div>
+    <div class="story-grid">
+      <div class="ph">
+        <img
+          src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_612,h_765/v1790015288/Beauty_salon_interior_design_202609212226.jpg"
+          srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_368,h_460/v1790015288/Beauty_salon_interior_design_202609212226.jpg 368w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_612,h_765/v1790015288/Beauty_salon_interior_design_202609212226.jpg 612w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_1224,h_1530/v1790015288/Beauty_salon_interior_design_202609212226.jpg 1224w"
+          sizes="(max-width: 900px) 100vw, 612px"
+          width="612" height="765" loading="lazy" decoding="async" alt="Aura Studio salon interior">
+      </div>
+      <div class="story-copy">
+        <div class="story-copy__body">
+        <p class="lead">Aura Studio was built for the days that don't go as planned. A wedding announced this morning, an interview moved up, a date tonight — whatever the reason, whenever you call, there is a chair and a specialist waiting for you.</p>
+        <div class="values">
+          <div class="value-item"><h3>Availability</h3><p>There is always a free slot, even for today.</p></div>
+          <div class="value-item"><h3>Craft</h3><p>Certified specialists, continuously trained.</p></div>
+          <div class="value-item"><h3>Calm</h3><p>A quiet, uncrowded space for every visit.</p></div>
+          <div class="value-item"><h3>Discretion</h3><p>Private rooms and unhurried service.</p></div>
+        </div>
+        </div>
+        <div class="story-cta"><a href="#contact" class="btn btn--block">Book a visit</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="on-green stat-band">
+  <div class="wrap stat-row">
+    <div class="stat-item"><div class="stat-num">8+</div><div class="stat-label">years in beauty &amp; aesthetics</div></div>
+    <div class="stat-item"><div class="stat-num">98%</div><div class="stat-label">of clients come back to us</div></div>
+    <div class="stat-item"><div class="stat-num">365</div><div class="stat-label">days a year we keep room open</div></div>
+    <div class="principle">
+      <h4>Our core principle —<br>we always have room</h4>
+      <p>We never tell a client "fully booked." Our schedule always keeps space open, so whenever beauty becomes urgent, Aura Studio is ready for you.</p>
+    </div>
+  </div>
+</div>
+
+<section id="process">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>How we <span class="script">work</span></h2>
+    </div>
+    <div>
+      <div class="process-row"><div class="p-index">/01</div><div class="p-title">Call, anytime</div><div class="p-desc">Reach us any hour, any day — we always find you a slot, even today.</div></div>
+      <div class="process-row"><div class="p-index">/02</div><div class="p-title">Walk in ready</div><div class="p-desc">Your specialist is briefed and prepared before you arrive, no matter how short the notice.</div></div>
+      <div class="process-row"><div class="p-index">/03</div><div class="p-title">Full treatment</div><div class="p-desc">The same unhurried care, whether booked a month ago or an hour ago.</div></div>
+      <div class="process-row"><div class="p-index">/04</div><div class="p-title">Come back whenever</div><div class="p-desc">No fixed schedule required — call again whenever beauty becomes urgent.</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Our <span class="script">services</span></h2>
+    </div>
+    <div class="services services--a">
+      <figure class="svc svc--tall"><button type="button" class="svc__open" data-svc="hair" aria-haspopup="dialog"><div class="ph"><img src="https://res.cloudinary.com/zb7a4nip/image/upload/c_crop,x_280,y_0,w_1000,h_1333,g_north_west/f_auto,q_auto,c_fill,w_309,h_412/v1787930751/266311-2.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/c_crop,x_280,y_0,w_1000,h_1333,g_north_west/f_auto,q_auto,c_fill,w_180,h_240/v1787930751/266311-2.jpg 180w, https://res.cloudinary.com/zb7a4nip/image/upload/c_crop,x_280,y_0,w_1000,h_1333,g_north_west/f_auto,q_auto,c_fill,w_309,h_412/v1787930751/266311-2.jpg 309w, https://res.cloudinary.com/zb7a4nip/image/upload/c_crop,x_280,y_0,w_1000,h_1333,g_north_west/f_auto,q_auto,c_fill,w_460,h_613/v1787930751/266311-2.jpg 460w, https://res.cloudinary.com/zb7a4nip/image/upload/c_crop,x_280,y_0,w_1000,h_1333,g_north_west/f_auto,q_auto,c_fill,w_618,h_824/v1787930751/266311-2.jpg 618w" sizes="(max-width: 900px) calc(50vw - 27px), 309px" width="309" height="412" loading="lazy" decoding="async" alt="Hair &amp; Styling"></div><span class="svc__hint">Price list +</span></button><figcaption>Hair &amp; Styling</figcaption></figure>
+      <figure class="svc svc--short"><button type="button" class="svc__open" data-svc="nails" aria-haspopup="dialog"><div class="ph"><img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_206/v1788011118/2149171334-2.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_180,h_120/v1788011118/2149171334-2.jpg 180w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_206/v1788011118/2149171334-2.jpg 309w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_460,h_307/v1788011118/2149171334-2.jpg 460w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_412/v1788011118/2149171334-2.jpg 618w" sizes="(max-width: 900px) calc(50vw - 27px), 309px" width="309" height="206" loading="lazy" decoding="async" alt="Manicure &amp; Pedicure"></div><span class="svc__hint">Price list +</span></button><figcaption>Manicure &amp; Pedicure</figcaption></figure>
+      <figure class="svc svc--half"><button type="button" class="svc__open" data-svc="facials" aria-haspopup="dialog"><div class="ph"><img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_206/v1788011118/4415889-2.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_180,h_120/v1788011118/4415889-2.jpg 180w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_206/v1788011118/4415889-2.jpg 309w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_460,h_307/v1788011118/4415889-2.jpg 460w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_412/v1788011118/4415889-2.jpg 618w" sizes="(max-width: 900px) calc(50vw - 27px), 309px" width="309" height="206" loading="lazy" decoding="async" alt="Facials &amp; Skincare"></div><span class="svc__hint">Price list +</span></button><figcaption>Facials &amp; Skincare</figcaption></figure>
+      <figure class="svc svc--short"><button type="button" class="svc__open" data-svc="brows" aria-haspopup="dialog"><div class="ph"><img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_206/v1790012234/2149183873-2.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_180,h_120/v1790012234/2149183873-2.jpg 180w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_206/v1790012234/2149183873-2.jpg 309w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_460,h_307/v1790012234/2149183873-2.jpg 460w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_412/v1790012234/2149183873-2.jpg 618w" sizes="(max-width: 900px) calc(50vw - 27px), 309px" width="309" height="206" loading="lazy" decoding="async" alt="Brows &amp; Lashes"></div><span class="svc__hint">Price list +</span></button><figcaption>Brows &amp; Lashes</figcaption></figure>
+    </div>
+    <div class="services services--b">
+      <figure class="svc svc--wide"><button type="button" class="svc__open" data-svc="massage" aria-haspopup="dialog"><div class="ph"><img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_627,h_353/v1788011118/2148345640-2.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_370,h_208/v1788011118/2148345640-2.jpg 370w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_627,h_353/v1788011118/2148345640-2.jpg 627w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_940,h_529/v1788011118/2148345640-2.jpg 940w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_1254,h_706/v1788011118/2148345640-2.jpg 1254w" sizes="(max-width: 900px) calc(100vw - 44px), 627px" width="627" height="353" loading="lazy" decoding="async" alt="Massage"></div><span class="svc__hint">Price list +</span></button><figcaption>Massage</figcaption></figure>
+      <figure class="svc svc--short"><button type="button" class="svc__open" data-svc="makeup" aria-haspopup="dialog"><div class="ph"><img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_206/v1788011117/111558-2.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_180,h_120/v1788011117/111558-2.jpg 180w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_206/v1788011117/111558-2.jpg 309w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_460,h_307/v1788011117/111558-2.jpg 460w, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_412/v1788011117/111558-2.jpg 618w" sizes="(max-width: 900px) calc(50vw - 27px), 309px" width="309" height="206" loading="lazy" decoding="async" alt="Makeup &amp; Occasions"></div><span class="svc__hint">Price list +</span></button><figcaption>Makeup &amp; Occasions</figcaption></figure>
+      <aside class="svc__aside">
+        <p>We tailor every service to your goals and your style. After a short chat, we'll suggest what's right for you — and how long it will honestly take.</p>
+        <a href="#contact" class="btn btn--block">Need help choosing?</a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>No filters, just real<br><span class="script">transformations</span></h2>
+    </div>
+    <div class="gallery-carousel" id="galleryCarousel">
+      <div class="gallery-track" id="galleryTrack">
+        <figure class="gallery-card">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787929004/young-model-demonstrating-expensive-ring-2.jpg"
+            srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_380,h_475/v1787929004/young-model-demonstrating-expensive-ring-2.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787929004/young-model-demonstrating-expensive-ring-2.jpg 2x"
+            width="380" height="475" loading="lazy" decoding="async" draggable="false" alt="Client — elegant ring">
+        </figure>
+        <figure class="gallery-card">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787928982/funny-girl-with-hair-curlers-her-head-2.jpg"
+            srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_380,h_475/v1787928982/funny-girl-with-hair-curlers-her-head-2.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787928982/funny-girl-with-hair-curlers-her-head-2.jpg 2x"
+            width="380" height="475" loading="lazy" decoding="async" draggable="false" alt="Mid-transformation, curlers">
+        </figure>
+        <figure class="gallery-card">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787928966/female-hairdresser-making-hairstyle-blonde-woman-beauty-salon-3.jpg"
+            srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_380,h_475/v1787928966/female-hairdresser-making-hairstyle-blonde-woman-beauty-salon-3.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787928966/female-hairdresser-making-hairstyle-blonde-woman-beauty-salon-3.jpg 2x"
+            width="380" height="475" loading="lazy" decoding="async" draggable="false" alt="Styling a blonde client">
+        </figure>
+        <figure class="gallery-card">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787928925/2149860785-2.jpg"
+            srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_380,h_475/v1787928925/2149860785-2.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787928925/2149860785-2.jpg 2x"
+            width="380" height="475" loading="lazy" decoding="async" draggable="false" alt="Aura Studio client">
+        </figure>
+        <figure class="gallery-card">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787929065/hands-giving-foot-massage-working-bright-pleasing-salon-3.jpg"
+            srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_380,h_475/v1787929065/hands-giving-foot-massage-working-bright-pleasing-salon-3.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787929065/hands-giving-foot-massage-working-bright-pleasing-salon-3.jpg 2x"
+            width="380" height="475" loading="lazy" decoding="async" draggable="false" alt="Foot &amp; leg massage">
+        </figure>
+        <figure class="gallery-card">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787928933/bride-floral-jewelry-tiara-2.jpg"
+            srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_380,h_475/v1787928933/bride-floral-jewelry-tiara-2.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787928933/bride-floral-jewelry-tiara-2.jpg 2x"
+            width="380" height="475" loading="lazy" decoding="async" draggable="false" alt="Bride, floral jewelry">
+        </figure>
+        <figure class="gallery-card">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1790016224/2148825377-2.jpg"
+            srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_380,h_475/v1790016224/2148825377-2.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1790016224/2148825377-2.jpg 2x"
+            width="380" height="475" loading="lazy" decoding="async" draggable="false" alt="Facial treatment">
+        </figure>
+        <figure class="gallery-card">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787930849/therapeutic-massage-female-back-shoulder-lying-down-bed-2.jpg"
+            srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_380,h_475/v1787930849/therapeutic-massage-female-back-shoulder-lying-down-bed-2.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_760,h_950/v1787930849/therapeutic-massage-female-back-shoulder-lying-down-bed-2.jpg 2x"
+            width="380" height="475" loading="lazy" decoding="async" draggable="false" alt="Back &amp; shoulder massage">
+        </figure>
+      </div>
+    </div>
+    <div class="gallery-cta">
+      <a href="#contact" class="btn">View More</a>
+    </div>
+  </div>
+</section>
+
+<script>
+(function initGalleryCarousel(){
+  const el = document.getElementById('galleryCarousel');
+  const track = document.getElementById('galleryTrack');
+  if (!el || !track) return;
+
+  const cards = [...track.querySelectorAll('.gallery-card')];
+  const images = cards.map(c => c.querySelector('img'));
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const PARALLAX_STRENGTH = 26; // px of inner-image drift at full offset
+
+  function updateParallax(){
+    if (reduceMotion) return;
+    const viewportCenter = el.scrollLeft + el.clientWidth / 2;
+    const clientWidth = el.clientWidth;
+    // Read all geometry first, then write all styles — interleaving the two
+    // per-card forces a synchronous layout recalc on every iteration.
+    const offsets = cards.map(card => {
+      const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+      const delta = Math.max(-1, Math.min(1, (cardCenter - viewportCenter) / clientWidth));
+      return delta * -PARALLAX_STRENGTH;
+    });
+    offsets.forEach((offset, i) => {
+      images[i].style.transform = `translate(calc(-50% + ${offset}px), -50%)`;
+    });
+  }
+
+  let ticking = false;
+  function onScroll(){
+    if (!ticking){
+      requestAnimationFrame(() => { updateParallax(); ticking = false; });
+      ticking = true;
+    }
+  }
+  el.addEventListener('scroll', onScroll, { passive:true });
+
+  // Native overflow-scroll already gives touch/trackpad dragging; add
+  // click-and-drag support for desktop mouse users on top of it.
+  let isDown = false, startX = 0, startScroll = 0;
+
+  el.addEventListener('mousedown', e => {
+    isDown = true;
+    startX = e.clientX;
+    startScroll = el.scrollLeft;
+    el.classList.add('is-dragging');
+  });
+  window.addEventListener('mousemove', e => {
+    if (!isDown) return;
+    el.scrollLeft = startScroll - (e.clientX - startX);
+  });
+  function endDrag(){
+    if (!isDown) return;
+    isDown = false;
+    el.classList.remove('is-dragging');
+  }
+  window.addEventListener('mouseup', endDrag);
+  el.addEventListener('mouseleave', () => { if (isDown) endDrag(); });
+
+  // Convert a normal vertical mouse-wheel scroll into horizontal carousel
+  // movement while the cursor is over it (trackpad horizontal swipes already
+  // scroll it natively via deltaX and are left untouched).
+  el.addEventListener('wheel', e => {
+    const primarilyVertical = Math.abs(e.deltaY) > Math.abs(e.deltaX);
+    if (!primarilyVertical) return;
+    const atStart = el.scrollLeft <= 0;
+    const atEnd = el.scrollLeft >= el.scrollWidth - el.clientWidth - 1;
+    if ((e.deltaY < 0 && atStart) || (e.deltaY > 0 && atEnd)) return;
+    e.preventDefault();
+    el.scrollLeft += e.deltaY;
+  }, { passive:false });
+
+  window.addEventListener('resize', updateParallax);
+  updateParallax();
+})();
+</script>
+
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Reviews</h2>
+      <div class="reviews-rating">
+        <span class="rating-num">4.9</span>
+        <span class="rating-caption">Based on 180+ client reviews</span>
+        <span class="rating-stars">★★★★★</span>
+      </div>
+    </div>
+    <div class="reviews-scroll">
+      <div class="reviews-track">
+        <div class="review-card">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Called at 5pm asking for a haircut before a dinner at 7 — they said come right in, no "we're full today."</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/44.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Nərgiz"></div><div class="name">Nərgiz, 27</div></div>
+        </div>
+        <div class="review-card">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Needed a facial the morning of a work event, no appointment booked in advance. They fit me in within the hour.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/68.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Aytac"></div><div class="name">Aytac, 34</div></div>
+        </div>
+        <div class="review-card">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Gel manicure on my one free afternoon, decided that same morning. Səbinə already had my colours ready when I walked in.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/32.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Vüsalə"></div><div class="name">Vüsalə, 41</div></div>
+        </div>
+        <div class="review-card">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Lash lift, booked two hours before a flight. No rushing, no shortcuts — just a studio that had room for me.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/21.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Sevinc"></div><div class="name">Sevinc, 26</div></div>
+        </div>
+        <div class="review-card">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Texted at midnight asking about a morning slot — got a reply in minutes and a chair by 9am.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/56.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Nigar"></div><div class="name">Nigar, 32</div></div>
+        </div>
+        <div class="review-card">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Needed a haircut before a flight, called from the taxi to the airport. They still made room.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/men/41.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Elvin"></div><div class="name">Elvin, 29</div></div>
+        </div>
+        <div class="review-card">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Booked a facial the same day after a rough week — no waitlist, no judgment, just an open chair.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/12.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Aysu"></div><div class="name">Aysu, 24</div></div>
+        </div>
+        <div class="review-card">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Rescheduled my appointment twice. Nobody made me feel bad about it — they just found a new time.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/men/76.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Tural"></div><div class="name">Tural, 35</div></div>
+        </div>
+        <div class="review-card" aria-hidden="true">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Called at 5pm asking for a haircut before a dinner at 7 — they said come right in, no "we're full today."</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/44.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Nərgiz"></div><div class="name">Nərgiz, 27</div></div>
+        </div>
+        <div class="review-card" aria-hidden="true">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Needed a facial the morning of a work event, no appointment booked in advance. They fit me in within the hour.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/68.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Aytac"></div><div class="name">Aytac, 34</div></div>
+        </div>
+        <div class="review-card" aria-hidden="true">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Gel manicure on my one free afternoon, decided that same morning. Səbinə already had my colours ready when I walked in.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/32.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Vüsalə"></div><div class="name">Vüsalə, 41</div></div>
+        </div>
+        <div class="review-card" aria-hidden="true">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Lash lift, booked two hours before a flight. No rushing, no shortcuts — just a studio that had room for me.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/21.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Sevinc"></div><div class="name">Sevinc, 26</div></div>
+        </div>
+        <div class="review-card" aria-hidden="true">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Texted at midnight asking about a morning slot — got a reply in minutes and a chair by 9am.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/56.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Nigar"></div><div class="name">Nigar, 32</div></div>
+        </div>
+        <div class="review-card" aria-hidden="true">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Needed a haircut before a flight, called from the taxi to the airport. They still made room.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/men/41.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Elvin"></div><div class="name">Elvin, 29</div></div>
+        </div>
+        <div class="review-card" aria-hidden="true">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Booked a facial the same day after a rough week — no waitlist, no judgment, just an open chair.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/women/12.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Aysu"></div><div class="name">Aysu, 24</div></div>
+        </div>
+        <div class="review-card" aria-hidden="true">
+          <span class="review-quote-mark">&rdquo;</span>
+          <p class="txt">Rescheduled my appointment twice. Nobody made me feel bad about it — they just found a new time.</p>
+          <div class="review-stars">★★★★★</div>
+          <div class="review-foot"><div class="ph review-photo"><img src="https://randomuser.me/api/portraits/thumb/men/76.jpg" width="36" height="36" loading="lazy" decoding="async" alt="Tural"></div><div class="name">Tural, 35</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="reviews-more on-green">
+      <a href="#" class="btn">See More on Google</a>
+    </div>
+  </div>
+</section>
+
+<section id="team">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Meet the <span class="script">team</span></h2>
+    </div>
+    <div class="team-grid">
+      <div class="team-text">
+        <p>Every specialist at Aura Studio is trained to listen first. <span class="text-regular">Attentive, certified, and always ready to help — whatever you need, whenever you call. Each one keeps building their craft through ongoing training, so the care you get today is sharper than it was last year. No rushed appointments, no guesswork — just people who take the time to understand exactly what you're after before a single tool comes out.</span></p>
+      </div>
+      <figure class="team-tile">
+        <div class="ph">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/2.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_412/v1790016834/2.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/2.jpg 2x" width="309" height="412" loading="lazy" decoding="async" alt="Hair Stylist &amp; Colorist">
+          <div class="team-caption"><h3>Günay Əliyeva</h3><p class="role">Hair Stylist &amp; Colorist</p></div>
+          <div class="team-bio"><p>8 years behind the chair. Trained in Milan, inspired by movement — hair should move the way you do.</p></div>
+        </div>
+      </figure>
+      <figure class="team-tile">
+        <div class="ph">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790018616/447232.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_412/v1790018616/447232.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790018616/447232.jpg 2x" width="309" height="412" loading="lazy" decoding="async" alt="Lead Esthetician">
+          <div class="team-caption"><h3>Nərmin Quliyeva</h3><p class="role">Lead Esthetician</p></div>
+          <div class="team-bio"><p>Certified in medical-grade skincare. Believes the best facial starts with really listening.</p></div>
+        </div>
+      </figure>
+      <figure class="team-tile">
+        <div class="ph">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790018604/7232-2.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_412/v1790018604/7232-2.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790018604/7232-2.jpg 2x" width="309" height="412" loading="lazy" decoding="async" alt="Colorist">
+          <div class="team-caption"><h3>Kamran Nəsirov</h3><p class="role">Colorist</p></div>
+          <div class="team-bio"><p>Colour specialist with a chemistry background. Chases the shade that looks like it grew there.</p></div>
+        </div>
+      </figure>
+    </div>
+    <div class="team-grid">
+      <figure class="team-tile">
+        <div class="ph">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/3.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_412/v1790016834/3.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/3.jpg 2x" width="309" height="412" loading="lazy" decoding="async" alt="Nail Artist">
+          <div class="team-caption"><h3>Səbinə Rzayeva</h3><p class="role">Nail Artist</p></div>
+          <div class="team-bio"><p>Nail artist and former illustrator — every set starts as a sketch.</p></div>
+        </div>
+      </figure>
+      <figure class="team-tile">
+        <div class="ph">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/1.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_412/v1790016834/1.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/1.jpg 2x" width="309" height="412" loading="lazy" decoding="async" alt="Massage Therapist">
+          <div class="team-caption"><h3>Aysel Məmmədova</h3><p class="role">Massage Therapist</p></div>
+          <div class="team-bio"><p>Trained in sports and prenatal massage. Believes recovery matters as much as the treatment itself.</p></div>
+        </div>
+      </figure>
+      <figure class="team-tile">
+        <div class="ph">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/4.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_412/v1790016834/4.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/4.jpg 2x" width="309" height="412" loading="lazy" decoding="async" alt="Brow &amp; Lash Artist">
+          <div class="team-caption"><h3>Röya Hüseynova</h3><p class="role">Brow &amp; Lash Artist</p></div>
+          <div class="team-bio"><p>Microblading certified in Seoul. Obsessed with brows that still look like your own.</p></div>
+        </div>
+      </figure>
+      <figure class="team-tile">
+        <div class="ph">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/5.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_412/v1790016834/5.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/5.jpg 2x" width="309" height="412" loading="lazy" decoding="async" alt="Makeup Artist">
+          <div class="team-caption"><h3>Leyla Abbasova</h3><p class="role">Makeup Artist</p></div>
+          <div class="team-bio"><p>Ten years on shoot sets and weddings alike. Awarded Best Bridal Artist, Baku 2023.</p></div>
+        </div>
+      </figure>
+    </div>
+    <div class="team-grid">
+      <figure class="team-tile team-row3-start">
+        <div class="ph">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/6.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_412/v1790016834/6.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790016834/6.jpg 2x" width="309" height="412" loading="lazy" decoding="async" alt="Skincare Specialist">
+          <div class="team-caption"><h3>Gülnar Rəhimova</h3><p class="role">Skincare Specialist</p></div>
+          <div class="team-bio"><p>Focused on rosacea and sensitive skin. Studies ingredients like other people study recipes.</p></div>
+        </div>
+      </figure>
+      <figure class="team-tile">
+        <div class="ph">
+          <img src="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790017791/758-2.jpg" srcset="https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_309,h_412/v1790017791/758-2.jpg 1x, https://res.cloudinary.com/zb7a4nip/image/upload/f_auto,q_auto,c_fill,g_auto,w_618,h_824/v1790017791/758-2.jpg 2x" width="309" height="412" loading="lazy" decoding="async" alt="Barber">
+          <div class="team-caption"><h3>Turan İsayev</h3><p class="role">Barber</p></div>
+          <div class="team-bio"><p>Classic barbering, sharpened over 6 years. Believes a good fade never goes out of style.</p></div>
+        </div>
+      </figure>
+      <div class="team-cta-tile">
+        <p>Not sure who's right for you? We'll help you pick the specialist that fits.</p>
+        <a href="#contact" class="btn btn--block">Choose a specialist</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="on-green" id="contact">
+  <div class="wrap contact-wrap">
+    <h2>Quick booking <span class="script">form</span></h2>
+    <!-- TODO: mailto is a no-backend fallback only — replace with a real
+         integration (Telegram Bot API, EmailJS, CRM webhook, etc.) before
+         relying on this for real bookings. See manual checklist. -->
+    <form class="contact-form" id="bookingForm" action="mailto:hello@aurastudio.az" method="post" enctype="text/plain">
+      <div class="field"><label for="fullname">Full name*</label><input id="fullname" name="fullname" type="text" placeholder="Your full name" required></div>
+      <div class="field"><label for="ph">Phone number*</label><input id="ph" name="phone" type="tel" placeholder="+994 00 000 00 00" required></div>
+      <div class="field">
+        <label for="procedure">Procedure*</label>
+        <select id="procedure" name="procedure" required>
+          <option value="" selected disabled>Choose a procedure</option>
+          <option>Hair &amp; Styling</option>
+          <option>Manicure &amp; Pedicure</option>
+          <option>Facials &amp; Skincare</option>
+          <option>Massage</option>
+          <option>Brows &amp; Lashes</option>
+          <option>Makeup &amp; Occasions</option>
+          <option>Not sure yet</option>
+        </select>
+      </div>
+      <div class="field"><label for="msg">Tell us what you'd like…</label><textarea id="msg" name="message" rows="1" placeholder="Anything else we should know"></textarea></div>
+    </form>
+    <p class="contact-form-note" id="bookingConfirm" role="status" hidden>Thanks! Your mail app should have opened with your booking details — hit send there to reach us.</p>
+    <div class="contact-form-foot">
+      <button type="submit" class="btn" form="bookingForm">Send</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <h2 style="font-size:clamp(1.9rem,2.6vw+1rem,3.2rem);">Find us on <span class="script">social media</span></h2>
+    <div class="social-list">
+      <a href="#"><span class="ic"><svg><use href="#i-fb"/></svg></span>@aurastudio</a>
+      <a href="#"><span class="ic"><svg><use href="#i-tik"/></svg></span>@aura_studio</a>
+      <a href="#"><span class="ic"><svg><use href="#i-inst"/></svg></span>@aura_studio</a>
+      <a href="#"><span class="ic"><svg><use href="#i-tg"/></svg></span>@aura_studio</a>
+    </div>
+    <hr class="line">
+    <div class="foot-grid">
+      <div><h4>Aura Studio</h4><div class="val">Premium beauty studio.<br>A chair open, whenever you need one.</div></div>
+      <div><h4>Phone Number</h4><div class="val">+994 00 000 00 00</div><h4 style="margin-top:24px;">Email</h4><div class="val">hello@aurastudio.az</div></div>
+      <div><h4>Opening Hours</h4><div class="val">Mon–Sun,<br>9:00–20:00</div><h4 style="margin-top:24px;">Address</h4><div class="val">28 Nizami St,<br>Baku, AZ1000</div></div>
+      <div class="foot-map">
+        <iframe src="https://www.google.com/maps?q=28+Nizami+St,+Baku,+Azerbaijan&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Aura Studio location — 28 Nizami St, Baku"></iframe>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Aura Studio. All rights reserved.</span>
+      <div class="legal-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Cookie Settings</a></div>
+    </div>
+  </div>
+</footer>
+
+
+<div class="pricing-overlay" id="pricingOverlay" hidden>
+  <div class="pricing-modal" role="dialog" aria-modal="true" aria-labelledby="pricingTitle">
+    <button type="button" class="pricing-modal__close" id="pricingClose" aria-label="Close price list">&#10005;</button>
+    <div class="pricing-modal__head">
+      <div class="pricing-modal__eyebrow">Price list</div>
+      <h3 class="pricing-modal__title" id="pricingTitle"></h3>
+      <p class="pricing-modal__note" id="pricingNote"></p>
+    </div>
+    <div class="pricing-list" id="pricingList"></div>
+    <div class="pricing-modal__foot">
+      <span>Prices in manats. Final quote confirmed after a short consultation.</span>
+      <a href="#contact" class="btn" id="pricingBook">Book this service</a>
+    </div>
+  </div>
+</div>
+
+<script>
+(function initServicePricing(){
+  const CATEGORIES = {
+    hair: {
+      title: 'Hair & Styling',
+      note: 'Cut, colour and care with stylists who plan the whole look before a single tool comes out.',
+      items: [
+        ['Women’s haircut', '45 min', '45 ₼'],
+        ['Men’s haircut', '30 min', '25 ₼'],
+        ['Blow-dry & styling', '40 min', '30 ₼'],
+        ['Single-process colour', '2 h', '90 ₼'],
+        ['Highlights, full head', '3 h', '180 ₼'],
+        ['Balayage / AirTouch', '3 h 30 min', '220 ₼'],
+        ['Keratin smoothing', '2 h 30 min', '250 ₼'],
+        ['Deep-repair mask ritual', '30 min', '40 ₼']
+      ]
+    },
+    nails: {
+      title: 'Manicure & Pedicure',
+      note: 'Sterile tools, single-use files, and a finish that still looks fresh three weeks later.',
+      items: [
+        ['Classic manicure', '45 min', '25 ₼'],
+        ['Manicure + gel polish', '1 h 15 min', '45 ₼'],
+        ['Hardware pedicure', '1 h', '45 ₼'],
+        ['Pedicure + gel polish', '1 h 30 min', '65 ₼'],
+        ['Gel extensions', '2 h', '80 ₼'],
+        ['Nail art, per nail', '5 min', '5 ₼'],
+        ['Polish removal', '20 min', '10 ₼']
+      ]
+    },
+    facials: {
+      title: 'Facials & Skincare',
+      note: 'Every facial starts with a skin reading — we only treat what your skin actually needs.',
+      items: [
+        ['Skin consultation', '20 min', 'Free'],
+        ['Express cleanse', '30 min', '40 ₼'],
+        ['Hydrating facial', '1 h', '75 ₼'],
+        ['Deep cleansing facial', '1 h 15 min', '85 ₼'],
+        ['Chemical peel', '45 min', '110 ₼'],
+        ['Anti-age lifting facial', '1 h 30 min', '140 ₼'],
+        ['Microneedling', '1 h', '180 ₼']
+      ]
+    },
+    massage: {
+      title: 'Massage',
+      note: 'Therapists trained in sports and prenatal work — recovery matters as much as the treatment.',
+      items: [
+        ['Back & shoulders', '30 min', '45 ₼'],
+        ['Relaxing full body', '1 h', '70 ₼'],
+        ['Prenatal massage', '1 h', '80 ₼'],
+        ['Deep tissue', '1 h', '85 ₼'],
+        ['Sports recovery', '1 h 15 min', '95 ₼'],
+        ['Lymphatic drainage', '1 h 15 min', '100 ₼'],
+        ['Hot stone', '1 h 30 min', '110 ₼']
+      ]
+    },
+    brows: {
+      title: 'Brows & Lashes',
+      note: 'Shaped to your own features — brows that still look like yours, only tidier.',
+      items: [
+        ['Brow shaping', '20 min', '15 ₼'],
+        ['Brow tint + shaping', '40 min', '30 ₼'],
+        ['Brow lamination', '1 h', '55 ₼'],
+        ['Lash lift & tint', '1 h 15 min', '70 ₼'],
+        ['Classic lash extensions', '1 h 30 min', '80 ₼'],
+        ['Volume lash extensions', '2 h', '110 ₼'],
+        ['Lash refill, 2–3 weeks', '1 h', '55 ₼'],
+        ['Microblading', '2 h 30 min', '300 ₼']
+      ]
+    },
+    makeup: {
+      title: 'Makeup & Occasions',
+      note: 'Weddings, shoots and long evenings — makeup built to hold through all of them.',
+      items: [
+        ['Day makeup', '45 min', '50 ₼'],
+        ['Evening makeup', '1 h', '70 ₼'],
+        ['Occasion hair styling', '1 h', '60 ₼'],
+        ['Personal makeup lesson', '1 h 30 min', '120 ₼'],
+        ['Bridal makeup + trial', '2 h 30 min', '250 ₼'],
+        ['Bridal hair + makeup', '3 h 30 min', '380 ₼'],
+        ['On-location in Baku', 'surcharge', '+50 ₼']
+      ]
+    }
+  };
+
+  const overlay = document.getElementById('pricingOverlay');
+  const modal = overlay && overlay.querySelector('.pricing-modal');
+  const titleEl = document.getElementById('pricingTitle');
+  const noteEl = document.getElementById('pricingNote');
+  const listEl = document.getElementById('pricingList');
+  const closeBtn = document.getElementById('pricingClose');
+  const bookBtn = document.getElementById('pricingBook');
+  const triggers = [...document.querySelectorAll('.svc__open')];
+  if (!overlay || !triggers.length) return;
+
+  let lastTrigger = null;
+  let currentKey = null;
+
+  function render(key){
+    const data = CATEGORIES[key];
+    if (!data) return false;
+    titleEl.textContent = data.title;
+    noteEl.textContent = data.note;
+    listEl.innerHTML = '';
+    data.items.forEach(([name, time, cost]) => {
+      const row = document.createElement('div');
+      row.className = 'price-row';
+      const n = document.createElement('span');
+      n.className = 'price-row__name';
+      n.textContent = name;
+      const t = document.createElement('span');
+      t.className = 'price-row__time';
+      t.textContent = time;
+      const c = document.createElement('span');
+      c.className = 'price-row__cost';
+      if (cost.slice(-1) === '₼') {
+        c.textContent = cost.slice(0, -1).trim();
+        const cur = document.createElement('span');
+        cur.className = 'price-row__cur';
+        cur.textContent = '₼';
+        c.appendChild(cur);
+      } else {
+        c.textContent = cost;
+      }
+      row.append(n, t, c);
+      listEl.appendChild(row);
+    });
+    listEl.scrollTop = 0;
+    return true;
+  }
+
+  function open(key, trigger){
+    if (!render(key)) return;
+    currentKey = key;
+    lastTrigger = trigger || null;
+    overlay.hidden = false;
+    document.body.classList.add('is-locked');
+    requestAnimationFrame(() => overlay.classList.add('is-open'));
+    closeBtn.focus();
+  }
+
+  function close(restoreFocus){
+    if (overlay.hidden) return;
+    overlay.classList.remove('is-open');
+    document.body.classList.remove('is-locked');
+    const done = () => { overlay.hidden = true; };
+    setTimeout(done, 260);
+    if (restoreFocus !== false && lastTrigger) lastTrigger.focus();
+  }
+
+  triggers.forEach(btn => {
+    btn.addEventListener('click', () => open(btn.dataset.svc, btn));
+  });
+
+  closeBtn.addEventListener('click', () => close());
+  bookBtn.addEventListener('click', e => {
+    const target = document.getElementById('contact');
+    const select = document.getElementById('procedure');
+    const data = CATEGORIES[currentKey];
+    if (select && data){
+      const match = [...select.options].find(o => o.textContent === data.title);
+      if (match) select.value = match.value;
+    }
+    close(false);
+    if (target){
+      e.preventDefault();
+      setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60);
+    }
+  });
+  overlay.addEventListener('mousedown', e => { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', e => {
+    if (overlay.hidden) return;
+    if (e.key === 'Escape'){ close(); return; }
+    if (e.key !== 'Tab') return;
+    const focusable = modal.querySelectorAll('button, [href]');
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
+  });
+})();
+
+(function initFormLinks(){
+  const target = document.getElementById('contact');
+  if (!target) return;
+
+  // [button selector, procedure preselected in the booking form]
+  const links = [
+    ['.svc__aside .btn', 'Not sure yet'],
+    ['.team-cta-tile .btn', null],
+    ['.story-cta .btn', null]
+  ];
+
+  links.forEach(([selector, preset]) => {
+    const el = document.querySelector(selector);
+    if (!el) return;
+    el.addEventListener('click', e => {
+      if (preset){
+        const select = document.getElementById('procedure');
+        const match = select && [...select.options].find(o => o.textContent === preset);
+        if (match) select.value = match.value;
+      }
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+})();
+
+(function initFadeUpReveal(){
+  const targets = [...document.querySelectorAll('.fade-up-js')];
+  if (!targets.length) return;
+
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduceMotion || !('IntersectionObserver' in window)) {
+    targets.forEach(el => el.classList.add('is-visible'));
+    return;
+  }
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  targets.forEach(el => io.observe(el));
+})();
+
+(function initBookingForm(){
+  const form = document.getElementById('bookingForm');
+  const confirmEl = document.getElementById('bookingConfirm');
+  if (!form || !confirmEl) return;
+
+  form.addEventListener('submit', () => {
+    confirmEl.hidden = false;
+  });
+})();
+</script>
+
+</body>
+
+</html>
