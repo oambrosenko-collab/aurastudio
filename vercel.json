@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/favicons/(.*)",
+      "source": "/(apple-touch-icon|brand-mark|favicon-16x16|favicon-32x32).png",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
